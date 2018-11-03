@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './styles/navigation.css';
 import Logo from './Logo.jsx';
 import Search from './Search.jsx';
+import Navigation from './Navigation.jsx';
 
 const divTable = {
   display: "table",
@@ -13,7 +13,7 @@ export const TopBar = () => (
   <div style={divTable}>
     <Logo />
     <Search />
-
+    <Navigation />
 
 
     {/* <nav>
