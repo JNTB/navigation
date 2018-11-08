@@ -1,0 +1,73 @@
+.form {
+  display: block;
+  margin-top: 0;
+}
+
+.divOuter {
+  display: block;
+  direction: ltr;
+  box-sizing: border-box;
+  line-height: 1.43;
+}
+
+.divInner {
+  width: 100%;
+  height: 100%;
+  padding-left: 12px;
+  padding-right: 4px;
+  box-sizing: border-box;
+  display: block;
+}
+
+.label {
+  display: table;
+  margin: 0px;
+  padding: 0px;
+  table-layout: fixed;
+  white-space: nowrap;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.icon {
+  padding: 3px 10px 0px 5px;
+  width: 39px;
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.svg {
+  height: 18px;
+  width: 18px;
+  display: block;
+  fill: #484848;
+  line-height: normal;
+}
+
+.divInputWrapper {
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: block;
+}
+
+.divInput {
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input {
+  background-color: transparent;
+  width: 100%;
+  text-overflow: ellipsis;
+  font-weight: 500;
+  font-size: 17px;
+  border-width: 0px;
+  margin: 0;
+  padding: 0;
+}

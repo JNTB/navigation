@@ -1,13 +1,13 @@
 import React from 'react';
 import SearchForm from './SearchForm.jsx';
-import styles from './styles/search.css';
+import stylr from './styles/Search.css';
 
 const Search = () => (
-  <div style={styles.divOuter}>
-    <div style={styles.divInner}>
-      <div style={styles.divOuterSearch}>
-        <div style={styles.divInnerSearch}>
-          <div style={styles.divSearchBar}>
+  <div className={stylr.divOuter}>
+    <div className={stylr.divInner}>
+      <div className={stylr.divOuterSearch}>
+        <div className={stylr.divInnerSearch}>
+          <div className={stylr.divSearchBar}>
             <SearchForm />
           </div>
         </div>

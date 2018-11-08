@@ -1,0 +1,22 @@
+.divLogo {
+  display: table-cell;
+  vertical-align: middle;
+  width: 82px;
+  font-size: 34px;
+}
+
+.divInner {
+  display: table-cell;
+  vertical-align: middle;
+  box-sizing: border-box;
+  padding-right: 24px;
+  padding-left: 24px;
+  height: 80px;
+}
+
+.svg {
+  height: 1em;
+  width: 1em;
+  display: block;
+  fill: #FF5A5F;
+}

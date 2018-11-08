@@ -1,0 +1,40 @@
+.divOuter {
+  display: table-cell;
+  width: 100%;
+  vertical-align: middle;
+  box-sizing: border-box;
+  border-spacing: 0px;
+}
+
+.divInner {
+  display: block;
+  border-spacing: border-box;
+}
+
+.divOuterSearch {
+  position: absolute;
+  left: 80px;
+  top: 16px;
+  width: 460px;
+  display: block;
+  box-sizing: border-box;
+  border-spacing: 0px;
+}
+
+.divInnerSearch {
+  display: table;
+  width: 100%;
+  border-spacing: border-box;
+}
+
+.divSearchBar {
+  display: table-cell;
+  width: 100%;
+  vertical-align: middle;
+  background-color: #ffffff;
+  border: 1px solid #EBEBEB;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  height: 48px;
+  box-sizing: border-box;
+}

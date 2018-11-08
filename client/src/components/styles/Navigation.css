@@ -1,0 +1,70 @@
+.ul {
+  width: 100%;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  line-height: 1.43;
+  display: table;
+  font-weight: 600;
+  font-family: Circular, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.li {
+  display: table-cell;
+  width: 100%;
+}
+
+.divOuter {
+  display: table-cell;
+  vertical-align: middle;
+  box-sizing: border-box;
+  width: 100%;
+  height: 80px;
+  margin: 0px 0px 0px 0px;
+}
+
+.divli {
+  box-sizing: border-box;
+  display: block;
+  height: 80px;
+  cursor: pointer;
+}
+
+.button {
+  height: 80px;
+  line-height: 80px;
+  display: inline-block;
+  position: relative;
+  white-space: nowrap;
+  background: transparent;
+  border-style: none;
+  margin: 0px;
+  padding: 0px 8px;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+}
+
+.divButtonOuter {
+  height: 100%;
+  box-sizing: border-box;
+  border-bottom: 2px solid transparent;
+  display: block;
+}
+
+.divButtonInner {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+  padding: 8px;
+}
+
+.nav {
+  display: block;
+  box-sizing: border-box;
+}
